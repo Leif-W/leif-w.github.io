@@ -52,6 +52,11 @@
         }
     };
 
+    // Address slightly obfuscated to guard against scrape spam.
+    $('#address').html(
+        'Leif Westerlind<br />21 Middlesex Ave Apt #305<br />Worcester, MA 01604 - 1980'
+    );
+
     // Phone number slightly obfuscated to guard against scrape spam.
     $('#phone-number').text('+1 (774) 262 - 8261');
 
